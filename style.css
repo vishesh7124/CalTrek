@@ -116,7 +116,7 @@ a{
     border-radius: 10px;
     font-size: 18px;
     background: none;
-    color: #553535;
+    color: black
 }
   
 .btn:hover {
@@ -263,14 +263,18 @@ a{
     
 }
 .footer{
-    background: rgba(218, 218, 218, 0.863);
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #381ED5ED;
+
+    height: 45vh;
     width: 100%;
     margin-top: 1vh;
     /* margin-bottom: 3vh; */
 }
 .box-medium{
-    height: 54vh;
+    height: 35vh;
     width: 96vw;
     margin: auto;
 
@@ -319,4 +323,28 @@ a{
 
 .flex-col{
     flex-direction: column;
+}
+
+.navigation-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+}
+
+.navigation a p{
+    margin-bottom: 2vh;
+}
+
+.line{
+    height: 2vh;
+    width: 50%;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-white{
+    color: white;
 }
