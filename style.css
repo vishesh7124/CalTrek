@@ -39,16 +39,25 @@ a{
     background: url(./images/user.png);
 }
 
-.bg-spoon{
-    background: url(./images/spoon-fork.png);
+.bg-vegie{
+    background: url(./images/Firefly\ gym\ equipments\ \,\ fruits\ and\ vegetables\ \,\ food\ items;\ bright\ purple\ velor\ colour;gradient\ 191\ 1.png);
 }
 
-.bg-cloud{
-    background: url(./images/cloud.png);
+.bg-calories{
+    background: url(./images/calories\ 1.png);
+}
+
+.bg-meals{
+    background: url(./images/meals\ logged\ final\ 1.png);
 }
 
 .bg-sadDick{
     background: url(./images/sag.jpg);
+}
+.bg-calForm{
+    background: url(./images/mountain\ 1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .logo{
     display: flex;
@@ -56,24 +65,44 @@ a{
     justify-content: center;
 }
 
+
 .logo-img{
-    background: url(./images/logo.png);
+    background: url(./images/logo1111\ 3.png);
     height: 10vh;
     width:  10vw;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+.name-img{
+    background: url(./images/platemate.png);
+    height: 10vh;
+    width:  10vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+}
+
+
 .text-big {
-    font-size: 44px;
     color: black;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Black Han Sans;
+    font-size: 39.4px;
+    font-weight: 400;
+    line-height: 52.8px;
+    text-align: left;
+
 }
 
 .text-small {
     font-size: 21px;
     color: black;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Alef;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+
 }
   
 .text-center {
@@ -104,7 +133,7 @@ a{
 .navbar{
     display: flex;
     padding: 1vh 1vw;
-    background: rgba(218, 218, 218, 0.863);
+    background: #F6EEEEDC;
     border-radius: 25px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -112,6 +141,9 @@ a{
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    height: 8.57vh;
+    width: 97.2vw;
+
 }
 
 .nav-list{
@@ -128,29 +160,36 @@ a{
 .nav-list li a{
     text-decoration: none;
     color: black;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Cabin;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+
 }
 .nav-list li  :hover{
     color: #d62a2a;
 }
 
 .firstSection{
-    height: 85vh;
+    height: 90vh;
     width: 98vw;
-    margin-top: 3vh;
+    margin: auto;
     margin-bottom: 3vh;
 }
 
 .box-big{
-    background: rgb(150, 143, 143);
-    height: 80vh;
-    width: 96vw;
+    background: #381ED538;
+    height: 57.2vh;
+    width: 98vw;
     margin: auto;
-
     border-radius: 70px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px ;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1vh;
     
 }
 .box-big .buttons{
@@ -159,6 +198,12 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+.benchmarks{
+    display: flex;
+    justify-content: space-between  ;
+}
+
 .paras{
     /* margin: auto; */
     display: flex;
@@ -167,26 +212,46 @@ a{
     align-items: center;
 }
 
+.paras-big{
+    width: 40%;
+    margin: 6vh 2vw;
+}
+
 .image-big{
-    height: 40vh;
-    width: 19vw;
+    height: 50vh;
+    width: 30.5vw;
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 6vh 2vw;
 
 }
 
 .secondSection{
-    height: 30vh;
-    width: 98vw;
-    margin-top: 3vh;
+    height: 100vh;
+    width: 99.4vw;
+    /* margin-top: 3vh; */
     margin-bottom: 3vh;
     display: flex;
 
 }
+/* @keyframes glow{
+    0%{background-color: yellow;}
+    10%{background-color: rgb(255, 217, 0);}
+    20%{background-color: rgb(255, 187, 0);}
+    30%{background-color: rgb(255, 145, 0);}
+    40%{background-color: rgb(255, 98, 0);}
+    50%{background-color: red;}
+    60%{background-color: rgb(255, 98, 0);}
+    70%{background-color: rgb(255, 162, 0);}
+    80%{background-color: rgb(255, 187, 0);}
+    90%{background-color: rgb(255, 217, 0);}
+    0%{background-color: yellow;}
+    
 
+} */
 .box-small{
-    background: rgb(150, 143, 143);
-    height: 25vh;
+    background: #381ED538;
+    height: 30.6vh;
     width: 24vw;
     margin: auto;
 
@@ -194,17 +259,18 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /* animation: glow 6s infinite  ease-in-out */
     
 }
 .footer{
     background: rgba(218, 218, 218, 0.863);
-    height: 35vh;
+    height: 60vh;
     width: 100%;
-    margin-top: 3vh;
+    margin-top: 1vh;
     /* margin-bottom: 3vh; */
 }
 .box-medium{
-    height: 30vh;
+    height: 54vh;
     width: 96vw;
     margin: auto;
 
@@ -249,4 +315,8 @@ a{
 
 .navigation a :hover{
     color: #d62a2a;
+}
+
+.flex-col{
+    flex-direction: column;
 }
