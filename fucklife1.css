@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+
+
+}
+.text{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    color: darkblue;
+    margin: 20px;
+    font-size: 3rem;
+}
+.text p{
+    color: rgb(46, 46, 133);
+    margin: 20px;
+}
+.text button{
+    background-color: darkgreen;
+    color: white;
+    width: 30vw;
+    margin: 35px;
+    border-radius: 5px;
+    height: 6vh;
+
+}
+.text button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper-sec{
+ 
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    
+    align-items: center;
+    gap: 70vw;
+}
+.logo{
+
+    display: flex;
+    font-size: 2rem;
+    gap: 5vw;
+
+
+}
+.logo p{
+    color: rgb(5, 5, 75);
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+#upper-btn-id{
+
+    background-color: white;
+    border: none;
+    height: 6vh;
+    width: 9vw;
+    color: rgb(5, 5, 75);
+    border: 2px solid rgb(5, 5, 75);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+.main-text{
+    height: 75vh;
+    width: 100vw;
+    background-color: rgba(198, 200, 200, 0.387);
+    color: rgb(5, 5, 75);
+    font-size: 1.35rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+.textcontent{
+    margin: 35px;
+    width: 60vw;
+    height: 55vh;
+}
+.chatbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.chatbox input{
+    width: 50vw;
+    height: 6.5vh;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(99, 99, 99);
+    margin: 15px;
+
+}
+.chatbox p{
+    color: rgb(89, 89, 89);
+}
